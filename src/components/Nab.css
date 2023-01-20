@@ -1,0 +1,61 @@
+*{
+  background: #120907;
+  color: gray;
+}
+
+.navigation{
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Button.dos::after{
+  content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid #ff2828;
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.Button.dos:hover::after{
+  left: 0;
+}
+
+.Button.tres::after{
+  content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid #3aff28;
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.Button.tres:hover::after{
+  left: 0;
+}
+
+  
